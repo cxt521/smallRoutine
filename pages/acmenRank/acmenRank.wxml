@@ -1,0 +1,3 @@
+<view>
+    <image class="imgUserInfo" src="{{heart_img}}"></image>
+  </view>

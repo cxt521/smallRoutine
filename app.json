@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/acmenRank/acmenRank"
+  ],
+  "window":{
+    "navigationBarTitleText": "小游戏",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "码农之战",
+        "iconPath": "img/1.png"
+      },
+      {
+        "pagePath": "pages/acmenRank/acmenRank",
+        "text": "封神之路",
+        "iconPath": "img/2.png"
+      }
+    ],
+    "color": "#000000",
+    "seletctColor": "#33CC99"
+  }
+}

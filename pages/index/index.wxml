@@ -1,0 +1,38 @@
+<!--index.wxml-->
+
+<view class="userContentOne">
+  <view wx:if="{{hasUserInfo && canIUse}}">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+  <view>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  </view>
+</view>
+<view class="userContentTwo">
+  <view class='userView'>
+    <image class="imgUserInfoOne" src="{{heart_img}}" mode="aspectFit"></image>
+    <text class="textUserInfo">您还剩<text style="color:red">{{heart_num}}</text>颗小心心</text>
+  </view>
+  <view class='userView'>
+    <image class="imgUserInfoOne" src="{{beat_num_img}}" mode="aspectFit"></image>
+    <text class="textUserInfo">您击败<text style="color:red">{{knife_num}}</text>个程序猿</text>
+  </view>
+  <view class='userView'>
+    <image class="imgUserInfoOne" src="{{money_img}}" mode="aspectFit"></image>
+    <text class="textUserInfo">您价值<text style="color:red">{{money_num}}</text>元软妹币</text>
+  </view>
+</view>
+<view class="userContentOne">
+<view class="imglv">
+  <image class="imglv" style="margin-top: 8rpx;" mode="aspectFit" src="{{lv4_img}}" ></image>
+</view>
+<view class="textstyle">
+  <text>{{lv_text}}</text>
+</view>
+</view>
+
+<view class="gameContent">
+  <view>
+
+  </view>
+</view>
