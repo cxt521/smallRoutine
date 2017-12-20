@@ -12,13 +12,12 @@ Page({
     lv2_img: "../../img/lv2.png",
     lv4_img: "../../img/lv4.png",
     lv5_img: "../../img/lv5.png",
-
     lv2_img: "../../img/lv2.png",
     lv4_img: "../../img/lv4.png",
     lv5_img: "../../img/lv5.png",
     lv_text: "码神",
     heart_num:"3",
-    knife_num:"33333331",
+    knife_num:"333311",
     money_num:"30k",
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')

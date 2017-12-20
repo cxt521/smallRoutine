@@ -37,16 +37,6 @@ App({
     userInfo: null
   },
   onShow:function() {
-    // wx.showModal({
-    //   title: '哎呀呀',
-    //   content: '你偷偷跑出去了，一点体力丢失了',
-    //   showCancel:false,
-    //   confirmText:'下不为例'
-    // })
-    const ctx = wx.createCanvasContext('myCanvas')
-    ctx.setFillStyle('red')
-    ctx.fillRect(10, 10, 150, 75)
-    ctx.draw()
   },
   onHide:function(){
 
