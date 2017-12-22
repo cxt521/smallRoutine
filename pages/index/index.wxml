@@ -5,7 +5,7 @@
   <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
   <view>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
+  </view> 
   </view>
 </view>
 <view class="userContentTwo">
